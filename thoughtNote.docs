@@ -1,0 +1,17 @@
+Thought note assignment 5:
+Create sales app using react,nodejs,Mongodb
+create two separate folder
+    1)Backend
+    2)Fronted
+1)Backend:
+    - Create separate model folder inside
+    two model create sales modal and user modal
+    - Create route folder inside two routes use route and sales route
+        -user route login section use json web token
+    -config js separate create inside Mongodb uri and secret key initialize
+    -server.js all the routes and modal implemenet here and create server
+
+2)Fronted:
+    -create two components homenavbar inside show logo and navbar logo and unordered list addsales,login,registration, top 5, total revenue
+    -Create 5 page all pages use navbar component
+    -login page user enter email and password signup button click backend function run if email and password match database data alert login succefull and store token in local storage and redirect home page.
